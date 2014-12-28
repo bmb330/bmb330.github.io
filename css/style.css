@@ -20,7 +20,7 @@ nav {
 	background-color: #000;
 }
 
-nav>ul>li {
+nav li {
 	font: 1.5em 'Share Tech', sans-serif;
 	color: #fff;
 	display: inline-block;
@@ -28,34 +28,41 @@ nav>ul>li {
 	padding: 1em 2em;
 }
 
-nav>ul>li>a {
+nav a {
 	text-decoration: none;
 }
 
-nav>ul>li>a:link {
+nav a:link {
 	color: #fff;
 }
 
-nav>ul>li>a:visited {
+nav a:visited {
 	color: #fff;
 }
 
-nav>ul>li>a:hover {
+nav a:hover {
 	color: #fff;
 }
 
-nav>ul>li>a:active {
+nav a:active {
 	color: #fff;
 }
 
 section {
-	height: 50px;
+	margin: 6em 12em;
+}
+
+article>h1 {
+	font: 3em 'Share Tech', sans-serif;
+	padding-bottom: 1em;
+}
+
+article>p {
+	font: 1.5em/1.4 serif;
 }
 
 footer {
-	font: .7em 'Share Tech', sans-serif;
-	margin-top: 1em;
-	margin-bottom: 1em;
+	font: .8em 'Share Tech', Georgia, Times, 'Times New Roman', sans-serif;
 	background-color: #000;
 	color: #fff;
 	padding: 2em;
@@ -64,4 +71,8 @@ footer {
 .container {
 	margin: 0 auto;
 	text-align: center;
+}
+
+.highlight {
+	background-color: #6d6d6d;
 }

@@ -1,0 +1,67 @@
+@import url(http://fonts.googleapis.com/css?family=Share+Tech);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background: url(../img/night-city-bg.jpg) no-repeat;
+	background-size: cover;
+}
+
+header>h1 {
+	font: 5em 'Share Tech', sans-serif;
+	padding-top: 1em;
+	padding-bottom: 1.5em;
+}
+
+nav {
+	background-color: #000;
+}
+
+nav>ul>li {
+	font: 1.5em 'Share Tech', sans-serif;
+	color: #fff;
+	display: inline-block;
+	margin: 0;
+	padding: 1em 2em;
+}
+
+nav>ul>li>a {
+	text-decoration: none;
+}
+
+nav>ul>li>a:link {
+	color: #fff;
+}
+
+nav>ul>li>a:visited {
+	color: #fff;
+}
+
+nav>ul>li>a:hover {
+	color: #fff;
+}
+
+nav>ul>li>a:active {
+	color: #fff;
+}
+
+section {
+	height: 50px;
+}
+
+footer {
+	font: .7em 'Share Tech', sans-serif;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	background-color: #000;
+	color: #fff;
+	padding: 2em;
+}
+
+.container {
+	margin: 0 auto;
+	text-align: center;
+}

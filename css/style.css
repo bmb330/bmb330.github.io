@@ -48,8 +48,13 @@ nav a:active {
 	color: #fff;
 }
 
-section {
-	margin: 6em 12em;
+article {
+	padding: 12em 12em;
+}
+
+article:nth-child(even) {
+	background-color: #6d6d6d;
+	color: #fff;
 }
 
 article>h1 {

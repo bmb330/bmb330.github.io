@@ -10,7 +10,7 @@ header {
 	background-size: cover;
 }
 
-header>h1 {
+header h1 {
 	font: 5em 'Share Tech', sans-serif;
 	padding-top: 1em;
 	padding-bottom: 1.5em;
@@ -33,19 +33,19 @@ nav a {
 	text-decoration: none;
 }
 
-nav a:link {
+a:link {
 	color: #fff;
 }
 
-nav a:visited {
+a:visited {
 	color: #fff;
 }
 
-nav a:hover {
+a:hover {
 	color: #fff;
 }
 
-nav a:active {
+a:active {
 	color: #fff;
 }
 
@@ -58,17 +58,18 @@ article:nth-child(even) {
 	color: #fff;
 }
 
-article>h1 {
-	font: 3em 'Share Tech', sans-serif;
-	padding-bottom: 1em;
+article h1 {
+	font: 3em 'Share Tech', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-bottom: 1em;
 }
 
-article>p {
-	font: 1.5em/1.4 serif;
+article p {
+	font: 1.5em/1.4 Georgia, Times, 'Times New Roman', serif;
+	margin-top: 2em;
 }
 
 footer {
-	font: .8em 'Share Tech', Georgia, Times, 'Times New Roman', sans-serif;
+	font: .8em 'Share Tech', "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background-color: #000;
 	color: #fff;
 	padding: 2em;
@@ -81,4 +82,36 @@ footer {
 
 .highlight {
 	background-color: #6d6d6d;
+}
+
+.project {
+	display: inline-block;
+	width: 80%;
+	margin-top: 6em;
+}
+
+.project:nth-child(odd) img {
+	float: left;
+	margin-right: 2em;
+}
+
+.project:nth-child(even) img {
+	float: right;
+	margin-left: 2em;
+}
+
+.project img {
+	border: 1px solid #dcdcdc;
+}
+
+.project h2 {
+	font: 2em 'Share Tech', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.project p {
+	font: 1em/1.4 Georgia, Times, 'Times New Roman', serif;
+}
+
+.fa {
+	padding: 1em;
 }

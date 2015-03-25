@@ -87,21 +87,25 @@ footer {
 .project {
 	display: inline-block;
 	width: 80%;
-	margin-top: 6em;
+	margin: 6em auto 0;
 }
 
 .project:nth-child(odd) img {
 	float: left;
-	margin-right: 2em;
+	margin: 0 2em 2em;
 }
 
 .project:nth-child(even) img {
 	float: right;
-	margin-left: 2em;
+	margin: 0 2em 2em;
 }
 
 .project img {
 	border: 1px solid #dcdcdc;
+}
+
+.project section {
+	padding: 2em;
 }
 
 .project h2 {
@@ -110,6 +114,10 @@ footer {
 
 .project p {
 	font: 1em/1.4 Georgia, Times, 'Times New Roman', serif;
+}
+
+.project a {
+	color: #6d6d6d;
 }
 
 .fa {

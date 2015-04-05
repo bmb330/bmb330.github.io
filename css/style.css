@@ -1,0 +1,125 @@
+@import url(http://fonts.googleapis.com/css?family=Share+Tech);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background: url(../img/night-city-bg.jpg) no-repeat;
+	background-size: cover;
+}
+
+header h1 {
+	font: 5em 'Share Tech', sans-serif;
+	padding-top: 1em;
+	padding-bottom: 1.5em;
+	color: #fff;
+}
+
+nav {
+	background-color: #000;
+}
+
+nav li {
+	font: 1.5em 'Share Tech', sans-serif;
+	color: #fff;
+	display: inline-block;
+	margin: 0;
+	padding: 1em 2em;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #fff;
+}
+
+a:visited {
+	color: #fff;
+}
+
+a:hover {
+	color: #fff;
+}
+
+a:active {
+	color: #fff;
+}
+
+article {
+	padding: 12em 12em;
+}
+
+article:nth-child(even) {
+	background-color: #6d6d6d;
+	color: #fff;
+}
+
+article h1 {
+	font: 3em 'Share Tech', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-bottom: 1em;
+}
+
+article p {
+	font: 1.5em/1.4 Georgia, Times, 'Times New Roman', serif;
+	margin-top: 2em;
+}
+
+footer {
+	font: .8em 'Share Tech', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #000;
+	color: #fff;
+	padding: 2em;
+}
+
+.container {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.highlight {
+	background-color: #6d6d6d;
+}
+
+.project {
+	display: inline-block;
+	width: 80%;
+	margin: 6em auto 0;
+}
+
+.project:nth-child(odd) img {
+	float: left;
+	margin: 0 2em 2em;
+}
+
+.project:nth-child(even) img {
+	float: right;
+	margin: 0 2em 2em;
+}
+
+.project img {
+	border: 1px solid #dcdcdc;
+}
+
+.project section {
+	padding: 2em;
+}
+
+.project h2 {
+	font: 2em 'Share Tech', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.project p {
+	font: 1em/1.4 Georgia, Times, 'Times New Roman', serif;
+}
+
+.project a {
+	color: #6d6d6d;
+}
+
+.fa {
+	padding: 1em;
+}
